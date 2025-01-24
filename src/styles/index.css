@@ -12,7 +12,7 @@ html {
     /* Consider removing this line if it's causing issues */
 }
 
-# body {
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -65,7 +65,6 @@ header div {
 #nav-left h1 {
     margin-top: 8%;
     margin-bottom: 0;
-    letter-spacing: .5cap;
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
