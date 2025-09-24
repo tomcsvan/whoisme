@@ -5,7 +5,7 @@
 
 /* Global styles */
 html {
-    background-image: url('../images/background.jpeg');
+    background-image: url('../../public/assets/images/background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
