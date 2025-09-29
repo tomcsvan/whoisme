@@ -1,0 +1,26 @@
+:root{
+    --bg: #0a0a0a;
+    --bg-soft: #0f0f10;
+    --surface: #131316;
+    --text: #f6f6f7;
+    --muted: #b7b7c0;
+    --border: #212126;
+  
+    --accent: #ffffff;
+    --glow: 0 0 40px rgba(255,255,255,.18), 0 0 140px rgba(255,255,255,.08);
+  
+    --ff-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --ff-display: "Playfair Display", ui-serif, Georgia, serif;
+  
+    --fs-display: clamp(2.4rem, 5.2vw, 4.8rem);
+    --fs-h2: clamp(1.4rem, 2.4vw, 2rem);
+    --radius-2xl: 22px;
+    --radius-lg: 14px;
+  
+    --maxw: 1200px;
+    --gutter: 24px;
+  
+    --dur: .35s;
+    --ease: cubic-bezier(.22,.61,.36,1);
+  }
+  
