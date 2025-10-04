@@ -1,4 +1,13 @@
 :root{
+    /* existing colors are already dark/cool — keep them, or switch accent to an icy cyan */
+    --accent: #7dd3fc; /* icy cyan */
+    --glow: 0 0 40px rgba(125,211,252,.18), 0 0 140px rgba(125,211,252,.08);
+  
+    /* fonts: colder tech look */
+    --ff-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    --ff-display: "Space Grotesk", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  
+    /* keep your other variables exactly the same… */
     --bg: #0a0a0a;
     --bg-soft: #0f0f10;
     --surface: #131316;
@@ -6,14 +15,7 @@
     --muted: #b7b7c0;
     --border: #212126;
   
-    --accent: #ffffff;
-    --glow: 0 0 40px rgba(255,255,255,.18), 0 0 140px rgba(255,255,255,.08);
-  
-    --ff-sans: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    --ff-display: "Playfair Display", ui-serif, Georgia, serif;
-  
     --fs-display: clamp(2.4rem, 5.2vw, 4.8rem);
-    --fs-h2: clamp(1.4rem, 2.4vw, 2rem);
     --radius-2xl: 22px;
     --radius-lg: 14px;
   
